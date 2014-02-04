@@ -26,7 +26,13 @@ namespace Web
             //    appId: "",
             //    appSecret: "");
 
-            //OAuthWebSecurity.RegisterGoogleClient();
+            OAuthWebSecurity.RegisterGoogleClient
+                ();
+
+            OAuthWebSecurity.RegisterLinkedInClient(
+                consumerKey: "77uaku7q4gk3o0",
+                consumerSecret: "397d4TtaqkEYzMpQ"
+                );
         }
     }
 }
